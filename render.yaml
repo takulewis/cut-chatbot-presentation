@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: cut-chatbot-presentation
+    runtime: static
+    staticPublishPath: .
+    buildCommand: echo "static site, no build"
